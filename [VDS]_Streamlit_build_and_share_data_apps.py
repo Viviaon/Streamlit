@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# Modifying the page title and icon
+st.set_page_config(page_title = "Car foo", page_icon = ":red_car:", layout = "wide")
+
 # CSS code to make the width of columns match with lenght of text
 st.markdown("""
             <style>
